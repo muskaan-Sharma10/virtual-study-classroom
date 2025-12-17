@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# Virtual Study Room 📚💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collaborative virtual study space designed to help students learn together, stay focused, and interact in real time. This project brings essential study-room features into a single web application, making remote studying more engaging and productive.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* 🔐 **Authentication**: User signup and login system
+* 🏠 **Dashboard**: Central hub to manage and join study rooms
+* 💬 **Real-time Chat**: Communicate with peers inside study rooms
+* 🎥 **Video Call**: Face-to-face interaction for group study sessions
+* 📝 **Document Editor**: Collaboratively edit notes and documents
+* 🚪 **Create & Join Rooms**: Start or enter virtual study rooms easily
+* 🛡️ **Protected Routes**: Secure access using private routing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* React Router
+* Context API
+* Tailwind CSS
+* Webpack
 
-### `npm run build`
+### Tools & Configuration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Node.js
+* npm
+* PostCSS
+* Vercel (for deployment)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Project Structure
 
-### `npm run eject`
+```
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   ├── Dashboard/
+│   │   ├── Room/
+│   │   └── common/
+│   ├── context/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env.example
+├── package.json
+└── tailwind.config.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Node.js installed
+* npm or yarn
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
 
-### Code Splitting
+2. Navigate to the project folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd frontend
+```
 
-### Analyzing the Bundle Size
+3. Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+4. Create a `.env` file using `.env.example`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Start the development server
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🔐 Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Make sure to define required environment variables in your `.env` file. Do not push `.env` to GitHub.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📸 Screenshots
+
+*(Add screenshots of your application here)*
+
+---
+
+## 🌱 Future Enhancements
+
+* Pomodoro timer for focused study sessions
+* Room moderation tools
+* User profile customization
+* Improved real-time collaboration features
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome. Feel free to fork the repository and submit a pull request.
+
+---
+
+## 👩‍💻 Author
+
+**Muskaan Sharma**
+Computer Science & Engineering Undergraduate
+Passionate about full-stack web development and building impactful digital products.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
