@@ -1,0 +1,9 @@
+/* App.css - Additional custom styles */
+
+.App {
+  text-align: center;
+}
+
+video {
+  object-fit: cover;
+}
