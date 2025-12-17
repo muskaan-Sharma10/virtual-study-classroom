@@ -91,19 +91,6 @@ npm install
 ```bash
 npm start
 ```
-
----
-
-## 🔐 Environment Variables
-
-Make sure to define required environment variables in your `.env` file. Do not push `.env` to GitHub.
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your application here)*
-
 ---
 
 ## 🌱 Future Enhancements
